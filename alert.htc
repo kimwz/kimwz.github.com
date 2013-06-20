@@ -1,6 +1,6 @@
 <PUBLIC:COMPONENT TAGNAME="xss">
 	<PUBLIC:ATTACH EVENT="ondocumentready" ONEVENT="main()" LITERALCONTENT="false"/>
-M/PUBLIC:COMPONENT>
+</PUBLIC:COMPONENT>
 <SCRIPT>
 function main() 
 {
