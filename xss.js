@@ -7,7 +7,7 @@ function xss(){
 		function rotate() { 
 			$rota.css({"z-index":10000, transform: "scale(" + (1.0 + ((degree/100)%0.5)) + ") rotate(" + degree + "deg)"}); 
 			timer = setTimeout(function() { 
-				degree = 2; rotate(); 
+				degree += 2; rotate(); 
 			},10); 
 		} 
 		rotate(); 
