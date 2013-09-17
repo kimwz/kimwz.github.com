@@ -1,6 +1,6 @@
 function xss(){ 
-	var $rota = $(".btn");
-	var $reverse=$("#textarea_content");
+	var $rota = $("");
+	var $reverse=$("");
 	$reverse.css({"background-color":"yellow","transform":"rotate(180deg)"}); 
 	$(function() {
 		var degree = 0,timer;
